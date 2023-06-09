@@ -10,7 +10,6 @@ showArticle.addEventListener('click', () => {
             .then(res => res.json())
             .then(data => {
                 data.articles.forEach(element => {
-                    console.log(element);
                     const srcImg = "http://127.0.0.1:5500/" + element.img;
                     container.innerHTML += `
                         <div class="row">
