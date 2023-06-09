@@ -1,6 +1,16 @@
 {
-    "name": "Theo",
-    "lastname": "couvelard",
-    "img":"../node-js/uploads/bo2.jpg",
-    "id": "1"
+    "articles": [
+        {
+            "name": "Theo",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+            "img": "node-js/uploads/bo2.jpg",
+            "id": "1"
+        },
+        {
+            "name": "oui",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+            "img": "node-js/uploads/fond.jpg",
+            "id": 2
+        }
+    ]
 }
