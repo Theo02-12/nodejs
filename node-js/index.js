@@ -10,7 +10,7 @@ app.use(cors());
 
 const router = express.Router();
 router.get('/', (req, res) => {
-    res.send(readFileSync('./info.json', 'utf8'))
+    res.send(readFileSync('./data.json', 'utf8'))
 })
 app.use(apiRoot, router)
 
